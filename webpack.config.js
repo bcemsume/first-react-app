@@ -1,4 +1,7 @@
 'use strict';
+const ExtractTextPlugin = require("extract-text-webpack-plugin");
+
+
 var webpack = require('webpack');
 
 var config = {
@@ -31,7 +34,7 @@ var config = {
       {
         test: /\.json$/,
         loader: "json-loader"  //JSON loader
-      }
+      },
     ]
   },
   //To run development server
