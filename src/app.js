@@ -1,8 +1,0 @@
-import './app.scss';
-
-var _ = require('lodash');
-
-var array = [1];
-var other = _.concat(array, 6, [3], [[4]]);
-
-console.log(other); //[1, 2, 3, [4]]
